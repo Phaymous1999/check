@@ -1,0 +1,200 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Fredoka One;
+	box-sizing: border-box;
+}
+
+html, body{
+	max-width: 100%;
+	max-height: 100%;
+	overflow-x: hidden;
+}
+
+.flexbox{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.cooper-side-bar{
+	position:fixed;
+	background: rgba(102, 0, 153, 1);
+	height: 2633px;
+	width: 300px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px;
+	
+
+}
+
+
+.cooper-side-menu a{
+
+	text-decoration:none;
+	color:white;
+	padding:25px 0 40px 3em;
+	margin-bottom: 0.5em;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0em;
+	text-align: center;
+	height: 24px;
+	left: 109px;
+	top: 326px;
+	border-radius: nullpx;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.cooper-side-menu a:hover{
+	height: 50px;
+	width:80%;
+	top: 199px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius:25px;
+	background: linear-gradient(178.18deg, #139B7E -13.56%, rgba(19, 155, 126, 0.21) 158.3%);
+}
+
+
+
+.cooper-side-menu{
+	position:relative;
+	top:70px;
+	text-align:justify;
+}
+
+.cooper-side-menu img{
+	margin-right: 1em;
+	width: 1.2em;
+}
+
+.cooper-top-bar{
+
+	width:1065px;
+	background: rgba(255, 255, 255, 1);
+	height: 100px;
+	margin-left: 300px;
+	margin-right:50px;
+
+}
+
+.cooper-logo-container{
+	position: relative;
+	left:0.9375rem;
+	top:10px;
+}
+
+.cooperwallet{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	left: 40%;
+	top: 30%
+}
+
+.nairawallet-img{
+	position: relative;
+	left: 40%;
+	margin-top: 5%;
+	
+}
+
+.nairacooperwallet-txt{
+	position: relative;
+	color: rgba(102, 0, 153, 1);
+	margin-top: 5%;
+	left: 8%;
+
+}
+
+.nairacooperwallet-txt h3{
+	text-align: center;
+	font-family: Fredoka One;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+
+
+}
+
+.nairacooperwallet-txt h2{
+	text-align: center;
+	font-family: Fredoka One;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	margin-bottom: 2%;
+}
+
+.password{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	left: 40%;
+	margin-top: 3%;
+}
+
+.password input{
+	height: 100px;
+	width: 100px;
+	left: 598px;
+	top: 1019px;
+	border-radius: 15px;
+	background: rgba(196, 196, 196, 1);
+	border-style: none;
+}
+
+.password div{
+	margin-right: 2%;
+}
+
+.enter-btn{
+	position: relative;
+	left: 45%;
+	margin-top: 2%;
+
+}
+
+.enter-btn button{
+	height: 90px;
+	width: 386px;
+	border-radius: 15px;
+	font-family: Fredoka One;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	background: rgba(102, 0, 153, 1);
+	color: rgba(255, 255, 255, 1);
+	border-style: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

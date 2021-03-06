@@ -1,0 +1,364 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Fredoka One;
+	box-sizing: border-box;
+}
+
+html, body{
+	max-width: 100%;
+	max-height: 100%;
+	overflow-x: hidden;
+}
+
+.flexbox{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.cooper-side-bar{
+	position:fixed;
+	background: rgba(102, 0, 153, 1);
+	height: 2633px;
+	width: 300px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px;
+	
+
+}
+
+
+.cooper-side-menu a{
+
+	text-decoration:none;
+	color:white;
+	padding:25px 0 40px 3em;
+	margin-bottom: 0.5em;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0em;
+	text-align: center;
+	height: 24px;
+	left: 109px;
+	top: 326px;
+	border-radius: nullpx;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.cooper-side-menu a:hover{
+	height: 50px;
+	width:80%;
+	top: 199px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius:25px;
+	background: linear-gradient(178.18deg, #139B7E -13.56%, rgba(19, 155, 126, 0.21) 158.3%);
+}
+
+
+
+.cooper-side-menu{
+	position:relative;
+	top:70px;
+	text-align:justify;
+}
+
+.cooper-side-menu img{
+	margin-right: 1em;
+	width: 1.2em;
+}
+
+.cooper-top-bar{
+
+	width:1065px;
+	background: rgba(255, 255, 255, 1);
+	height: 100px;
+	margin-left: 300px;
+	margin-right:50px;
+
+}
+
+.cooper-logo-container{
+	position: relative;
+	left:0.9375rem;
+	top:10px;
+}
+
+.cooperwallet{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	left: 40%;
+	top: 30%
+}
+
+
+.wallets{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	margin-left: 27%;
+}
+
+
+.wallet1{
+	margin-right: 5%;
+	background: linear-gradient(116.07deg, #660099 4.85%, #008F71 83.47%);
+	height: 276.9484558105469px;
+	width: 470px;
+	left: 406px;
+	top: 249px;
+	border-radius: 30px;
+	background: linear-gradient(116.07deg, #660099 4.85%, #008F71 83.47%);
+}
+
+.wallet2{
+	background: linear-gradient(116.07deg, #660099 4.85%, #008F71 83.47%);
+	opacity: 0.5;
+	height: 276.9484558105469px;
+	width: 470px;
+	left: 406px;
+	top: 249px;
+	border-radius: 30px;
+	background: linear-gradient(116.07deg, #660099 4.85%, #008F71 83.47%);
+}
+
+.wallet1 h4{
+	position: absolute;
+	left: 3%;
+	top: 10%;
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 13px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: rgba(255, 255, 255, 1);
+}
+
+.logo4card{
+	position: relative;
+	left:65%;
+	top: 12px;
+}
+
+
+.nairaw{
+	margin-left:5%;
+	margin-top: 6%;
+}
+
+.amt-txt {
+	position: absolute;
+	left:7%;
+	bottom: 56%
+}
+
+.amt-txt h1{
+	font-family: Roboto;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 56px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:rgba(255, 255, 255, 1);
+}
+
+.cip{
+	position: relative;
+	left: 82%;
+}
+
+.wallet-details p{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 10px;
+	letter-spacing: 1px;
+	text-align: left;
+	color: white;
+
+}
+
+.wallet-details{
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.fund button{
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 1);
+	color: rgba(102, 0, 153, 1);
+	border-style: none;
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 15px;
+	letter-spacing: 0em;
+
+}
+
+.fund{
+	position: relative;
+	left:70%;
+	bottom: 25%;
+}
+
+.transfer{
+	position: relative;
+	left: 70%;
+	bottom: 30%;
+}
+
+.Withdraw{
+	position: relative;
+	left: 45%;
+	bottom: 20%;
+}
+
+.Withdraw button{
+	height: 30px;
+	width: 100px;
+	color:rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	border-style: none;
+	background: rgba(19, 155, 126, 1);
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 15px;
+	letter-spacing: 0em;
+}
+
+.transfer button{
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+	background: rgba(102, 0, 153, 1);
+	color:rgba(255, 255, 255, 1);
+	border-style: none;
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 14px;
+
+}
+
+.add-wallet{
+	height: 56px;
+	width: 340px;
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 1);
+	position: relative;
+	top: 40%;
+	left: 3%;
+
+}
+
+.add-wallet h3{
+	font-family: Roboto;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: 0em;
+	color: rgba(102, 0, 153, 1);
+	opacity: 1;
+	position: absolute;
+	left: 10%;
+	top: 20%;
+}
+
+.add-wallet img{
+	position: relative;
+	left: 73%;
+	top:15%;
+}
+
+.cip2{
+	position: relative;
+	left: 82%;
+	top:23%;
+}
+
+.logo4card2{
+	position: absolute;
+	left: 83%;
+	top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+.activity{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	margin-left: 27%;
+	top: 70%;
+}
+
+.activity1{
+	height: 541px;
+	width: 444px;
+	left: 892px;
+	top: 603px;
+	border-radius: 30px;
+	background: rgba(242, 242, 242, 1);
+	margin-right: 5%;
+}
+
+.activity2{
+	height: 541px;
+	width: 444px;
+	left: 892px;
+	top: 603px;
+	border-radius: 30px;
+	background: rgba(242, 242, 242, 1);
+
+}
+
+.activity2 img{
+	position: relative;
+	left:27%;
+	top:25%;
+}
+
+.activity2 h3{
+	position: relative;
+	top: 30%;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: -0.23999999463558197px;
+	text-align: center;
+	color: rgba(102, 0, 153, 1);
+
+
+
+	text-align: center;
+}
+
+
+
